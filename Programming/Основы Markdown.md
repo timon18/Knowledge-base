@@ -1,5 +1,6 @@
 02-01-2021
 01:33
+Authors: Khutuev Tamerlan.
 ***
 Tags: #learning #markdown
 ***

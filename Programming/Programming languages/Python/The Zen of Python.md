@@ -1,5 +1,6 @@
 04-10-2021
 14:28
+Authors: Khutuev Tamerlan.
 ***
 Tags: #programming #python 
 ***

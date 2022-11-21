@@ -1,5 +1,6 @@
 04-04-2022
 11:50
+Authors: Khutuev Tamerlan.
 ***
 Tags: #javascript 
 ***

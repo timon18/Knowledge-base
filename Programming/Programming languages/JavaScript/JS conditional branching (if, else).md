@@ -1,5 +1,6 @@
 30-11-2021
 12:30
+Authors: Khutuev Tamerlan.
 ***
 Tags: #programming #javascript 
 ***

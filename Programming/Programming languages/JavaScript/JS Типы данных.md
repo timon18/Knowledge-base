@@ -1,5 +1,6 @@
 04-04-2022
 11:06
+Authors: Khutuev Tamerlan.
 ***
 Tags: #javascript #stub 
 ***

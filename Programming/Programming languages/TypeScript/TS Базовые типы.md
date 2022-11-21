@@ -1,5 +1,6 @@
 04-04-2022
 14:51
+Authors: Khutuev Tamerlan.
 ***
 Tags: #typesript #stub
 ***
