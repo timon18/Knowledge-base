@@ -1,0 +1,19 @@
+07-11-2022
+15:37
+***
+Tags: #programming #java
+***
+# Java
+
+[[JAVA Типы данных]]
+[[JAVA String]]
+[[JAVA Interning]]
+[[JAVA Autoboxing and unboxing]]
+
+[[JAVA Классы]]
+[[JAVA Объекты]]
+
+[[JAVA Memory]]
+[[JAVA Heap]]
+[[JAVA Stack]]
+[[JAVA Сборка мусора]]
