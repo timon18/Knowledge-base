@@ -11,8 +11,13 @@
             "id": "2b40c69e04f861c8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Frameworks/Spring/__spring__.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programming/Frameworks/Spring/__spring__.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programming/Frameworks/Spring/__spring__.md"
+              }
             }
           }
         ]
@@ -112,17 +120,17 @@
     "width": 161,
     "collapsed": true
   },
-  "active": "02c4ce34d962c81b",
+  "active": "2b40c69e04f861c8",
   "lastOpenFiles": [
-    "Readme.md",
+    "Programming/Frameworks/Без названия.md",
     "Без названия.md",
+    "Readme.md",
     "Files/Recording 20220517134321.webm",
     "Files/Recording 20211006232017.webm",
     "Files/Recording 20220517134243.webm",
     "Programming/Programming languages/Java/Classes and Objects/JAVA Лямбда-выражения.md",
     "Programming/Programming languages/Java/Classes and Objects/JAVA Объекты.md",
     "Programming/Programming languages/Java/Classes and Objects/JAVA Equals and Hashcode.md",
-    "Programming/Programming languages/Java/Classes and Objects/JAVA Интерфейсы.md",
-    "Programming/Programming languages/Java/Classes and Objects/JAVA Блоки инициализации.md"
+    "Programming/Programming languages/Java/Classes and Objects/JAVA Интерфейсы.md"
   ]
 }
