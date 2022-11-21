@@ -1,0 +1,128 @@
+{
+  "main": {
+    "id": "47e082ba913514ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "221e05e3d5b395a9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Programming/Programming languages/Java/JAVA Сборка мусора.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0abd847b9100c985",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f70cdc60e873309",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02c4ce34d962c81b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ccabb7d183d236eb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5f51e15d7b7cbcea",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 357
+  },
+  "right": {
+    "id": "fe1053714d530884",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a43a50de0cb8e43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13572f6adff48f30",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Programming/Programming languages/Java/JAVA Сборка мусора.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "16ae1d8758b1c0e0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ac5243f0690f7958",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Programming/Programming languages/Java/JAVA Сборка мусора.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 161,
+    "collapsed": true
+  },
+  "active": "221e05e3d5b395a9",
+  "lastOpenFiles": [
+    "Programming/Programming languages/Java/JAVA Memory.md",
+    "Programming/Programming languages/Java/JAVA Сборка мусора.md",
+    "Programming/Programming languages/Java/JAVA Типы данных.md",
+    "Programming/Programming languages/Java/JAVA Heap.md",
+    "Programming/Programming languages/Java/JAVA Stack.md",
+    "Programming/Programming languages/Java/__java__.md",
+    "Programming/Concepts/ООП.md",
+    "Programming/Patterns/OOP/Singltone.md",
+    "Programming/Patterns/__patterns__.md",
+    "Programming/Programming languages/JavaScript/__javascript__.md"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Base",
+  "attachmentFolderPath": "Files",
+  "obsidianCss": false,
+  "promptDelete": false,
+  "spellcheck": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "legacyEditor": false,
+  "livePreview": true,
+  "vimMode": false,
+  "showFrontmatter": true,
+  "showLineNumber": false
+}
