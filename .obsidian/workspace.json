@@ -11,13 +11,8 @@
             "id": "2b40c69e04f861c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Readme.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Readme.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -120,10 +112,10 @@
     "width": 161,
     "collapsed": true
   },
-  "active": "2b40c69e04f861c8",
+  "active": "02c4ce34d962c81b",
   "lastOpenFiles": [
-    "Без названия.md",
     "Readme.md",
+    "Без названия.md",
     "Files/Recording 20220517134321.webm",
     "Files/Recording 20211006232017.webm",
     "Files/Recording 20220517134243.webm",
