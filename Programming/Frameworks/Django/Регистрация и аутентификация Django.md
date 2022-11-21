@@ -1,7 +1,8 @@
 06-10-2021
 11:38
+Authors: Khutuev Tamerlan.
 ***
-Tags: #programming #django 
+Tags: #programming #django #frameworks 
 ***
 # Регистрация и аутентификация Django
 

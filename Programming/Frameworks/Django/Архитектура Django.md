@@ -1,7 +1,8 @@
  08-10-2021
 14:04
+Authors: Khutuev Tamerlan.
 ***
-Tags: #programming #django 
+Tags: #programming #django #frameworks 
 ***
 # Архитектура Django 
 https://djangobook.com/mdj2-django-structure/

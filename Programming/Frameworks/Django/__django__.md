@@ -1,5 +1,6 @@
 06-10-2021
 11:28
+Authors: Khutuev Tamerlan.
 ***
 Tags: #programming #python #django 
 ***

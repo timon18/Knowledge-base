@@ -1,5 +1,6 @@
 03-01-2021
 19:06
+Authors: Khutuev Tamerlan.
 ***
 Tags: #learning #wsl #jupyter #programming 
 ***

@@ -1,7 +1,8 @@
 08-10-2021
 14:42
+Authors: Khutuev Tamerlan.
 ***
-Tags: #programming #django 
+Tags: #programming #django #frameworks 
 ***
 # Структура Django проекта
 

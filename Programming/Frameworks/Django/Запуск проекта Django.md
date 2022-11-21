@@ -1,7 +1,8 @@
 06-10-2021
 11:30
+Authors: Khutuev Tamerlan.
 ***
-Tags: #programming #django 
+Tags: #programming #django #frameworks 
 ***
 # Запуск проекта Django
 

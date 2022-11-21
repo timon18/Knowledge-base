@@ -1,7 +1,8 @@
 10-10-2021
 22:57
+Authors: Khutuev Tamerlan.
 ***
-Tags: #programming #django 
+Tags: #programming #django #frameworks 
 ***
 # Django models
 
