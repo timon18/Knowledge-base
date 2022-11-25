@@ -6,6 +6,8 @@ Tags: #programming #java
 ***
 # Java
 
+[[JAVA Books]] - книги по JAVA
+
 [[JAVA Типы данных]]
 [[JAVA String]]
 [[JAVA Interning]]
