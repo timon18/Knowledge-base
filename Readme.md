@@ -1,3 +1,3 @@
 # Knowledge-base
 
-Рекомендуется установить Obsidian https://obsidian.md/. 
+Рекомендуется установить [Obsidian](https://obsidian.md/). 
