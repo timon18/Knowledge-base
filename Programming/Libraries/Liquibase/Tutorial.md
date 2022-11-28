@@ -13,15 +13,14 @@ Tags: #programming #liquibase
 spring.liquibase.change-log=classpath:db.changelog/db.changelog-master.xml
 ```
 
-Строка выше указывает, что в папке `resources/db.changelog` будет находиться главный changelog. 
+Строка выше указывает, что в папке `resources/db/changelog` будет находиться главный changelog. 
 
 ```xml
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"  
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog  
                         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">  
-<!--    <include file="classpath:liquibase/db.changelog-1.0.xml"/>-->  
-<!--    <include file="classpath:liquibase/db.changelog-2.0.xml"/>-->  
+<!--    <include file="classpath:db/changelog/db.changelog-1.0.xml"/>-->  
 </databaseChangeLog>
 ```
 
