@@ -8,8 +8,21 @@ Tags: #programming #liquibase
 
 Добавление liquibase в проект.
 
-В `alplication.properties` указываем где будут находиться чейнжлоги (миграции)
+В `alplication.properties` указываем где будут находиться чейнжлоги (миграции).
 ```
 spring.liquibase.change-log=classpath:db.changelog/db.changelog-master.xml
 ```
-Это стока указывает, что они будут находиться в папке `resources/dv` 
+
+Строка выше указывает, что в папке `resources/db.changelog` будет находиться главный changelog. 
+
+```xml
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"  
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog  
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">  
+<!--    <include file="classpath:liquibase/db.changelog-1.0.xml"/>-->  
+<!--    <include file="classpath:liquibase/db.changelog-2.0.xml"/>-->  
+</databaseChangeLog>
+```
+
+Остальные чейндлоги добавляются тегом `include`.
