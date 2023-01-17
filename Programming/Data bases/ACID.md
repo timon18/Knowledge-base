@@ -1,0 +1,9 @@
+17-01-2023
+12:26
+Authors: Khutuev Tamerlan.
+***
+Tags: #stub #db 
+***
+# ACID
+
+
