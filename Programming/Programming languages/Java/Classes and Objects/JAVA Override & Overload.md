@@ -4,6 +4,6 @@ Authors: Khutuev Tamerlan.
 ***
 Tags: #programming #java  #stub 
 ***
-# 
+# Перегрузка и переопределение методов
 
 
