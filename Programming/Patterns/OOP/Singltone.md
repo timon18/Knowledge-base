@@ -2,7 +2,7 @@
 17:16
 Authors: Khutuev Tamerlan.
 ***
-Tags: #oop #pattern 
+Tags: #oop #patterns 
 ***
 # Singltone
 Если есть необходимость что бы у класса был только один инстанс. 
