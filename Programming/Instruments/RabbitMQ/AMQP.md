@@ -1,0 +1,19 @@
+24-01-2023
+11:38
+Authors: Tamerlan Khutuev. 
+***
+Tags: #programming 
+***
+# AMQP
+
+AMQP (Advanced Message Queuing Protocol) — открытый протокол для передачи сообщений между компонентами системы. Главная идея в том, что компоненты системы могут обмениваться сообщениями через AMQP-брокер. 
+
+Протокол вводит три понятия:
+
+![rabbitmq_1](https://habrastorage.org/r/w1560/getpro/habr/post_images/6f4/7e9/2a8/6f47e92a8d4ebca0e828abd0970596e9.jpg)
+
+- exchange - точка обмена (обменник, коммутатор) в который отправляются сообщения и который распределяет из в 
+- queue
+- binding
+
+
