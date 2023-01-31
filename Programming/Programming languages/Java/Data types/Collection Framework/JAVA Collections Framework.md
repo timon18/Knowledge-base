@@ -20,6 +20,7 @@ Java collection framework - это иерархия интерфейсов и к
 	- [[JAVA Queue (interface)]]
 		- [[JAVA PriorityQueue]]
 		- [[JAVA ArrayDeque]]
+		- [[JAVA LinkedList]]
 
 ![[Pasted image 20221109164947.png]]
 
