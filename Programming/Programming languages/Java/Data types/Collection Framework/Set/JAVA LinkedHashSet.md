@@ -7,3 +7,4 @@ Tags: #stub #programming #java #collections_framework
 # LinkedHashSet
 
 
+Реализует интерфейс Map [[JAVA Set (interface)]].

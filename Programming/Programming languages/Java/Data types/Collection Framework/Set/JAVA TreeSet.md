@@ -7,3 +7,4 @@ Tags: #stub #programming #java #collections_framework
 # TreeSet
 
 
+Реализует интерфейс Map [[JAVA SortedSet (interface)]].
