@@ -2,7 +2,7 @@
 12:21
 Authors: Khutuev Tamerlan.
 ***
-Tags: #stub #java #programming 
+Tags: #java #programming 
 ***
 # ArrayList
 ArrayList - является реализацией динамического массива объектов. 
