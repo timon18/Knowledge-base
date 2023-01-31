@@ -16,3 +16,18 @@ Queue - это очередь.
 
 ![](https://blog.skillfactory.ru/wp-content/uploads/2022/06/java-collect-7-6134667.png)
 
+```java
+public interface Queue<E> extends Collection<E> {  
+	boolean add(E e);  
+  
+	boolean offer(E e);  
+  
+	E remove();  
+  
+	E poll();  
+  
+	E element();  
+  
+	E peek();  
+}
+```

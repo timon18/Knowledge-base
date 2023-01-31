@@ -6,4 +6,4 @@ Tags: #stub #java #programming
 ***
 # LinkedList
 
-
+Реализует интерфейс List [[JAVA List (interface)]] и Deque [[JAVA Deque (interface)]].

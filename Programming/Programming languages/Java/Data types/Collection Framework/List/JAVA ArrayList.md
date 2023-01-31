@@ -6,4 +6,4 @@ Tags: #stub #java #programming
 ***
 # ArrayList
 
-
+Реализует интерфейс List [[JAVA List (interface)]].

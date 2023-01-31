@@ -6,4 +6,4 @@ Tags: #stub #java #programming
 ***
 # Stack
 
-
+Реализует интерфейс List [[JAVA List (interface)]] и наследуется от Vector [[JAVA Vector]].

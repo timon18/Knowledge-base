@@ -6,4 +6,4 @@ Tags: #stub #java #programming
 ***
 # Vector
 
-
+Реализует интерфейс List [[JAVA List (interface)]].
