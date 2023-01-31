@@ -6,5 +6,6 @@ Tags: #stub #programming #java #collections_framework
 ***
 # HashSet
 
+Bcg
 
 Реализует интерфейс Map [[JAVA Set (interface)]].
