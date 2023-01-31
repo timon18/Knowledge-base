@@ -9,7 +9,7 @@ Tags: #stub #java #programming
 Интерфейс описывающий понятия коллекции расширяя [[JAVA Iterable]]. Расширяет понятие коллекции. Он не реализуется напрямую классами, но от него наследуются интерфейсы [[JAVA List]], [[JAVA Set]] и [[JAVA Queue]].
 Объекты которые относятся к коллекциям можно перебирать в цикле.
 
-![Collection-Interface-in-Java-with-Examples](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201105225856/Collection-Interface-in-Java-with-Examples.png)
+![](https://blog.skillfactory.ru/wp-content/uploads/2022/06/java-collect-1-8144484.png)
 
 -   add(item) — добавляет элемент item в коллекцию;
 -   addAll(collection) — добавляет в коллекцию другую коллекцию, ту, что указана в скобках;

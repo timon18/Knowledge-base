@@ -18,5 +18,5 @@ Tags: #programming #java
 
 [[JAVA Memory]]
 [[JAVA Heap]]
-[[JAVA Stack]]
+[[JAVA Stack (Memory)]]
 [[JAVA Сборка мусора]]

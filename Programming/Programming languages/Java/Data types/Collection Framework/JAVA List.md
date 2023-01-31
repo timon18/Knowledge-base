@@ -6,6 +6,12 @@ Tags: #stub #programming #java
 ***
 # List
 Интерфейс представляет упорядоченную коллекцию данных. Является динамическим массивом. У элементов есть индексы который показывают их положение в списке. 
+![](https://blog.skillfactory.ru/wp-content/uploads/2022/06/java-collect-4-6637877.png)
+Реализации:
+- [[JAVA ArrayList]]
+- [[JAVA LinkedList]]
+- [[JAVA Vector]]
+- [[JAVA Stack]]
 
 ```java
 public interface List<E> extends Collection<E> {  

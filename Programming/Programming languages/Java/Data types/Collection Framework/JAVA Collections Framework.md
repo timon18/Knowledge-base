@@ -10,8 +10,17 @@ Java collection framework - это иерархия интерфейсов и к
 [[JAVA Iterable]]
 - [[JAVA Collection]]
 	- [[JAVA Set]]
+		- [[JAVA HashSet]]
+		- [[JAVA LinkedHashSet]]
+		- [[JAVA TreeSet]]
 	- [[JAVA List]]
+		- [[JAVA ArrayList]]
+		- [[JAVA LinkedList]]
+		- [[JAVA Vector]]
+		- [[JAVA Stack]]
 	- [[JAVA Queue]]
+		- [[JAVA PriorityQueue]]
+		- [[JAVA ArrayDeque]]
 
 ![[Pasted image 20221109164947.png]]
 
