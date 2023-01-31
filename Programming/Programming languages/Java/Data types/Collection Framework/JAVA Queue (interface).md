@@ -5,5 +5,6 @@ Authors: Tamerlan Khutuev
 Tags: #stub #programming #java 
 ***
 # Queue
+
 ![](https://blog.skillfactory.ru/wp-content/uploads/2022/06/java-collect-7-6134667.png)
 
