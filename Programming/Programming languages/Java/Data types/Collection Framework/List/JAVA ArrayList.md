@@ -2,7 +2,7 @@
 12:21
 Authors: Khutuev Tamerlan.
 ***
-Tags: #java #programming 
+Tags: #java #programming #collections_framework 
 ***
 # ArrayList
 ArrayList - является реализацией динамического массива объектов. 

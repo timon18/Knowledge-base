@@ -2,7 +2,7 @@
 11:00
 Authors: Tamerlan Khutuev
 ***
-Tags: #programming #java 
+Tags: #programming #java #collections_framework 
 ***
 # List
 List - упорядоченная коллекция данных. У элементов есть индексы который показывают их положение в списке. 

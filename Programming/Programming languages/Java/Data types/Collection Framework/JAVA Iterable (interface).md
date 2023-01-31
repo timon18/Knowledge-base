@@ -2,7 +2,7 @@
 11:14
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #java #programming 
+Tags: #stub #java #programming #collections_framework 
 ***
 # Iterable
 

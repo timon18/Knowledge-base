@@ -2,7 +2,7 @@
 15:04
 Authors: Khutuev Tamerlan.
 ***
-Tags: #programming #java  
+Tags: #programming #java  #collections_framework 
 ***
 # Collections Framework
 Java collection framework - это иерархия интерфейсов и классов реализующий коллекции данных.

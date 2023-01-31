@@ -2,7 +2,7 @@
 14:01
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #java #programming 
+Tags: #stub #java #programming #collections_framework 
 ***
 # HashMap
 

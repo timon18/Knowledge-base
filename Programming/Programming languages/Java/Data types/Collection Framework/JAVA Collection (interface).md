@@ -2,7 +2,7 @@
 10:58
 Authors: Khutuev Tamerlan
 ***
-Tags: #stub #java #programming 
+Tags: #stub #java #programming #collections_framework 
 ***
 # Collection
 

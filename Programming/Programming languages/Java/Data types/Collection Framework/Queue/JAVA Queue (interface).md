@@ -2,7 +2,7 @@
 10:59
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #programming #java 
+Tags: #stub #programming #java #collections_framework 
 ***
 # Queue
 Queue - это очередь.

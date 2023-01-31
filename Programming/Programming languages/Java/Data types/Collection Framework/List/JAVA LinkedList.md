@@ -2,7 +2,7 @@
 12:21
 Authors: Khutuev Tamerlan.
 ***
-Tags: #java #programming 
+Tags: #java #programming #collections_framework 
 ***
 # LinkedList
 LinkedList - это двунаправленный список, где каждый элемент содержит указатель на следующий и предыдущий элемент. (как я понял он используется редко. в статье ниже в комментариях есть обсуждение)

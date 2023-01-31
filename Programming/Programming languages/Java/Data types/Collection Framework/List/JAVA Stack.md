@@ -2,7 +2,7 @@
 12:21
 Authors: Khutuev Tamerlan.
 ***
-Tags: #java #programming 
+Tags: #java #programming #collections_framework 
 ***
 # Stack
 Stack - это расширение коллекции Vector. Является частично потокобезопасным и по этому медленный. Рекомендуется использовать реализации интерфейса Deque к примеру ArrayDeque [[JAVA ArrayDeque]].

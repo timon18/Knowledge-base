@@ -2,7 +2,7 @@
 12:24
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #programming #java 
+Tags: #stub #programming #java #collections_framework 
 ***
 # HashSet
 
