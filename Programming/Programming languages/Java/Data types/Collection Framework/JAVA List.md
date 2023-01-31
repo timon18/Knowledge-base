@@ -5,7 +5,7 @@ Authors: Tamerlan Khutuev
 Tags: #stub #programming #java 
 ***
 # List
-
+Интерфейс представляет упорядоченную коллекцию данных. Является динамическим массивом. У элементов есть индексы который показывают их положение в списке. 
 
 ```java
 public interface List<E> extends Collection<E> {  
