@@ -5,15 +5,15 @@ Authors: Tamerlan Khutuev
 Tags: #stub #programming #java 
 ***
 # List
-List - это динамический массив (упорядоченная коллекция данных). У элементов есть индексы который показывают их положение в списке. 
+List - упорядоченная коллекция данных. У элементов есть индексы который показывают их положение в списке. 
 
 Наследуется от [[JAVA Collection (interface)]].
 
 Реализации:
-- [[JAVA ArrayList]]
-- [[JAVA LinkedList]]
-- [[JAVA Vector]]
-- [[JAVA Stack]]
+- [[JAVA ArrayList]] - реализация динамического массива объектов
+- [[JAVA LinkedList]] - двунаправленный связный список
+- [[JAVA Vector]] - реализация динамического массива объектов (потокобезопасный)
+	- [[JAVA Stack]] - стек (частично потокобезопасный)
 
 ![](https://blog.skillfactory.ru/wp-content/uploads/2022/06/java-collect-4-6637877.png)
 
