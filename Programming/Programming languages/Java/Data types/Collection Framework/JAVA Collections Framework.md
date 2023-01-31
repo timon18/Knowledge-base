@@ -7,6 +7,11 @@ Tags: #programming #java
 # # Collections Framework
 
 Java collection framework - это иерархия интерфейсов и классов реализующий коллекции данных.
+[[JAVA Iterable]]
+- [[JAVA Collection]]
+	- [[JAVA Set]]
+	- [[JAVA List]]
+	- [[JAVA Queue]]
 
 ![[Pasted image 20221109164947.png]]
 
