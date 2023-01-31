@@ -26,7 +26,7 @@ Java collection framework - это иерархия интерфейсов и к
 [[JAVA Map (interface)]]
 - [[JAVA Hashtable]]
 - [[JAVA HashMap]]
-- [[JAVA HashMap]]
+- [[JAVA LinkedHashMap]]
 - [[JAVA SortedMap (interface)]]
 	- [[JAVA TreeMap]]
 
