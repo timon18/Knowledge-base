@@ -10,9 +10,9 @@ Set - математическое множество в java. Т.е. неупо
 Наследуется от [[JAVA Collection (interface)]].
 
 Реализации:
-- [[JAVA HashSet]]
-- [[JAVA TreeSet]]
-- [[JAVA LinkedHashSet]]
+- [[JAVA HashSet]] - для максимально ускоренного поиска (без сортировки)
+- [[JAVA TreeSet]] - хранит данные в отсортированном виде
+- [[JAVA LinkedHashSet]] - хранит данные в порядке добавления
 
 ![](https://blog.skillfactory.ru/wp-content/uploads/2022/06/java-collect-5-8183945.png)
 
