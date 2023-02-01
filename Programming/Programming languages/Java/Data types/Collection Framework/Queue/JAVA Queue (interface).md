@@ -2,17 +2,19 @@
 10:59
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #programming #java #collections_framework 
+Tags: #programming #java #collections_framework 
 ***
 # Queue
 Queue - это очередь.
 
 Наследуется от [[JAVA Collection (interface)]].
+Docs: https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html
 
 Реализации:
 - [[JAVA LinkedList]]
-- [[JAVA ArrayDeque]]
-- [[JAVA PriorityQueue]]
+- [[JAVA PriorityQueue]] - можно управлять приоритетом (сортировкой)
+- [[JAVA Deque (interface)]] - двухсторонняя очередь
+	- [[JAVA ArrayDeque]]
 
 ![](https://blog.skillfactory.ru/wp-content/uploads/2022/06/java-collect-7-6134667.png)
 

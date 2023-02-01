@@ -8,6 +8,7 @@ Tags: #programming #java #collections_framework
 Set - математическое множество в java. Т.е. неупорядоченная коллекция уникальных значений.
 
 Наследуется от [[JAVA Collection (interface)]].
+Docs: https://docs.oracle.com/javase/8/docs/api/java/util/Set.html
 
 Реализации:
 - [[JAVA HashSet]] - для максимально ускоренного поиска (без сортировки)
