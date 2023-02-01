@@ -8,6 +8,8 @@ Tags: #stub #java #programming #collections_framework
 
 Это основной корневой интерфейс [[JAVA Collections Framework]]. Он означает, что объект итерируемый. У Iterable и, соответственно, у всех интерфейсов, которые от него наследуются, есть метод iterator(). Он возвращает итератор [[JAVA Iterator (interface)]] — специальную сущность-«перечислитель», своеобразный курсор, который указывает на тот или иной объект.
 
+Docs: https://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html
+
 ```java
 public interface Iterable<T> {   
     Iterator<T> iterator();  

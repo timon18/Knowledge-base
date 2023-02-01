@@ -5,9 +5,10 @@ Authors: Khutuev Tamerlan
 Tags: #stub #java #programming #collections_framework 
 ***
 # Collection
-
 Интерфейс описывающий понятия коллекции расширяя [[JAVA Iterable (interface)]]. Расширяет понятие коллекции. Он не реализуется напрямую классами, но от него наследуются интерфейсы [[JAVA List (interface)]], [[JAVA Set (interface)]] и [[JAVA Queue (interface)]].
 Объекты которые относятся к коллекциям можно перебирать в цикле.
+
+Docs: https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html
 
 ![](https://blog.skillfactory.ru/wp-content/uploads/2022/06/java-collect-1-8144484.png)
 
