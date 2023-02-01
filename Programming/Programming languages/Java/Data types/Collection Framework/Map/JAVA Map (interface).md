@@ -6,4 +6,6 @@ Tags: #stub #java #programming #collections_framework
 ***
 # Map
 
+Docs: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
 
+![](https://habrastorage.org/r/w1560/files/40a/eca/09a/40aeca09ac1c4cc7bdbd475a3c12fd95.png)
