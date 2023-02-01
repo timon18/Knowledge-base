@@ -2,7 +2,7 @@
 12:23
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #java #programming #collections_framework 
+Tags: #java #programming #collections_framework 
 ***
 # ArrayDeque
 Двусторонняя очередь.

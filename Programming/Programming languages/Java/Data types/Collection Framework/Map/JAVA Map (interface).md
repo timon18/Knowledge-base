@@ -2,7 +2,7 @@
 14:00
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #java #programming #collections_framework 
+Tags: #java #programming #collections_framework 
 ***
 # Map
 Пары ключ-значение. Ключами и значениями являются объекты. 

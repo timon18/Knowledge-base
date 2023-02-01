@@ -2,7 +2,7 @@
 12:23
 Authors: Tamerlan Khutuev
 ***
-Tags: #java #programming #collections_framework 
+Tags: #programming #collections_framework 
 ***
 # PriorityQueue
 Это очередь с приоритетом. Отличие этой очереди в том, что по умолчанию элементы в ней сортируются с использованием natural ordering [[JAVA natural ordering]], но сортировкой элементов можно управлять с помощью Comparator [[JAVA Comparator]]. 

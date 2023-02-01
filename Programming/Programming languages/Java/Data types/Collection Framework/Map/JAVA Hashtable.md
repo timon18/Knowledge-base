@@ -2,7 +2,7 @@
 14:01
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #java #programming #collections_framework 
+Tags: #java #programming #collections_framework 
 ***
 # Hashtable
 Реализация такой структуры данных как хеш-таблица. Является потокобезопасной по этому медленно работает. Альтернатива [[JAVA HashMap]].
