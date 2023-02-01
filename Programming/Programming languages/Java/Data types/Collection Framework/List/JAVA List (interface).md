@@ -9,6 +9,7 @@ List - упорядоченная коллекция данных. У элеме
 Интерфейс List добавляет в Collection [[JAVA Collection (interface)]] методы вставки и удаления элементов из середины списка.
 
 Наследуется от [[JAVA Collection (interface)]].
+Docs: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
 
 Реализации:
 - [[JAVA ArrayList]] - реализация динамического массива объектов

@@ -28,3 +28,4 @@ public class HashSet<E>  extends AbstractSet<E> implements Set<E>, Cloneable, ja
 ```
 
 Реализует интерфейс Map [[JAVA Set (interface)]].
+Docs: https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html

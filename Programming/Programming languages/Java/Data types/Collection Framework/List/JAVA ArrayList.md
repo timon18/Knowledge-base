@@ -16,3 +16,4 @@ ArrayList - является реализацией динамического �
 Хорошая статья: https://habr.com/ru/post/128269/
 
 Реализует интерфейс List [[JAVA List (interface)]].
+Docs: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html

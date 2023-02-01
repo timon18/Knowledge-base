@@ -8,3 +8,4 @@ Tags: #java #programming #collections_framework
 Vector - это реализация динамического массива объектов. Является потокобезопасным и по этому медленный. В качестве альтернативы используется ArrayList [[JAVA ArrayList]].
 
 Реализует интерфейс List [[JAVA List (interface)]].
+Docs: https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html

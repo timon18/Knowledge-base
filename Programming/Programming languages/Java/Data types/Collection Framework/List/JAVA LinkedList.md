@@ -17,3 +17,4 @@ LinkedList - это двунаправленный список, где кажд
 Хорошая статься: https://habr.com/ru/post/127864/
 
 Реализует интерфейс List [[JAVA List (interface)]] и Deque [[JAVA Deque (interface)]].
+Docs: https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html

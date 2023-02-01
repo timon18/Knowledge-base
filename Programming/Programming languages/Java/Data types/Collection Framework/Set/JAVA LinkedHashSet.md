@@ -8,3 +8,4 @@ Tags: #programming #java #collections_framework
 Отличается от HashSet [[JAVA HashSet]] только тем, что в основе его лежит LinkedHashMap [[JAVA LinkedHashMap]] вместо HashMap [[JAVA HashMap]]. Из за этого порядок соответсвует порядку добавления.
 
 Реализует интерфейс Set [[JAVA Set (interface)]].
+Docs: https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashSet.html
