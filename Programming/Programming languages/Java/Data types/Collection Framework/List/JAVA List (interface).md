@@ -5,7 +5,8 @@ Authors: Tamerlan Khutuev
 Tags: #programming #java #collections_framework 
 ***
 # List
-List - упорядоченная коллекция данных. У элементов есть индексы который показывают их положение в списке. 
+List - упорядоченная коллекция данных. У элементов есть индексы который показывают их положение в списке.
+Интерфейс List добавляет в Collection [[JAVA Collection (interface)]] методы вставки и удаления элементов из середины списка.
 
 Наследуется от [[JAVA Collection (interface)]].
 
