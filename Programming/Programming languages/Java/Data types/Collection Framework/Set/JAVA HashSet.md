@@ -2,7 +2,7 @@
 12:24
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #programming #java #collections_framework 
+Tags: #programming #java #collections_framework 
 ***
 # HashSet
 HashSet - это неупорядоченная коллекция уникальных значений. У него даже нет методов get и тому подобных. Для поиска можно просто пройтись в цикле. 

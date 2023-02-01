@@ -2,7 +2,7 @@
 11:00
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #programming #java #collections_framework 
+Tags: #programming #java #collections_framework 
 ***
 # Set
 Set - математическое множество в java. Т.е. неупорядоченная коллекция уникальных значений.
