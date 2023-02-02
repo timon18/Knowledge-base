@@ -6,7 +6,8 @@ Tags: #java #programming #collections_framework
 ***
 # Map
 Пары ключ-значение. Ключами и значениями являются объекты. 
-Для 
+Для хеширования используеться метод hashCode().
+Для сравнения ключей используется equals(). 
 
 Docs: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
 
