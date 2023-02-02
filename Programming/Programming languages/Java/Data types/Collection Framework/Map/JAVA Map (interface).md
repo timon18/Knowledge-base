@@ -16,6 +16,6 @@ Docs: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
 	- [[JAVA LinkedHashMap]] - отсортированный по порядку добавления
 - [[JAVA SortedMap (interface)]]
 	- [[JAVA NavigableMap]]
-		- [[JAVA TreeMap]] - можно менять принцип сортировки
+		- [[JAVA TreeMap]] - можно менять принцип сортировки (самый медленный)
 
 ![](https://habrastorage.org/r/w1560/files/40a/eca/09a/40aeca09ac1c4cc7bdbd475a3c12fd95.png)
