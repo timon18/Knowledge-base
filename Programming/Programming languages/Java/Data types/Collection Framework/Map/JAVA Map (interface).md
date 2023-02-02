@@ -6,6 +6,7 @@ Tags: #java #programming #collections_framework
 ***
 # Map
 Пары ключ-значение. Ключами и значениями являются объекты. 
+Для 
 
 Docs: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
 

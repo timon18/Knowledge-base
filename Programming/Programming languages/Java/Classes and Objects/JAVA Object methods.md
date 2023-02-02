@@ -13,20 +13,35 @@ Docs: https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html#getClass(
 Возвращает класс этого `Object`.
 
 ## hashCode()
+Возвращает хэш объекта. Нужен чтобы с объектом могли работать хэш-таблицы (например, HashMap). Всегда должен предопределяться с equals().
 Docs: https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html#hashCode()
-Возвращает значение хэш-кода для объекта.
 
 ## equals()
+Возвращает результат сравнения объектов. Текущий объект сравнивается с объектом, который передается в параметр. По умолчанию в Object сравнивает ссылки через == :
+```java
+ public boolean equals(Object obj) {
+     return (this == obj);
+ }
+```
+Обязателен для переопределения вместе с hashCode(). Переопределенный метод должен возвращать true, если объекты логически равны.
+
 Docs: https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html#equals(java.lang.Object)
-Указывает, является ли какой-либо другой объект «равным» этому.
 
 ## clone()
+Возвращает shallow (поверхностную) копию объекта. Для использования обязательно д.б. переопределен в классе. Класс должен имплементить маркерный интерфейс Cloneable, иначе метод выкинет CloneNotSupportedException. Типовая реализация:
+```java
+public YourClass clone() { 
+    return (YourClass) super.clone(); 
+}
+```
 Docs: https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html#clone()
-Создает и возвращает копию этого объекта.
 
 ## toString()
+Возвращает строковое представление объекта. Реализация в Object:
+```java
+ getClass().getName() + '@' + Integer.toHexString(hashCode())
+```
 Docs: https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html#toString()
-Возвращает строковое представление объекта.
 
 ## notify()
 Docs: https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html#notify()
@@ -40,6 +55,6 @@ Docs: https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html#wait()
 ## finalize()
 Docs: https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html#finalize()
 Устарело.
-Механизм финализации по своей сути проблематичен.
+Вызывается, когда больше нет причин для того, чтобы объект был доступен из любого живого потока.
 
 
