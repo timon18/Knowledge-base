@@ -14,5 +14,6 @@ Tags: #java #programming #collections_framework
 
 Наследуется от [[JAVA Map (interface)]]
 Хорошая статья: https://habr.com/ru/post/128017/
+Хорошая статья 2: https://habr.com/ru/post/421179/
 Docs: https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
 
