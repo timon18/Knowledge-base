@@ -5,6 +5,7 @@ Authors: Tamerlan Khutuev
 Tags: #stub #java #programming 
 ***
 # Concurrent Collections
+Параллельные коллекции отличаются синхронизированных коллекций. Синхронизированные коллекции просто блокируют коллекцию для всех потоков даже при чтении. 
 
 - [[JAVA ConcurrentHashMap]]
 - [[JAVA CopyOnWriteArrayList]]
