@@ -24,7 +24,7 @@ console.log(getElementCount(arr1)) //5
 
 ## Вывод всех элементов соответствующих значению/условию в массиве
 ```js
-onst arr1 = [1, 2, 3, 4, 5]
+const arr1 = [1, 2, 3, 4, 5]
 
 const getElement = (arr, a) => {
 	let arr2 = [];
@@ -49,6 +49,7 @@ if (i === a) {
 //or
 
 if (i === a) arr.push(i);
+
 ```
 
 ---
