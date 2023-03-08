@@ -3,9 +3,9 @@
 		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Lock.md","id":"bd043694b198f6d6","x":236,"y":-85,"width":400,"height":400},
 		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Synchronized.md","id":"1b5830f77604744d","x":-1080,"y":-285,"width":400,"height":245},
 		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Monitor.md","id":"568f29cacf34e80a","x":-480,"y":-205,"width":400,"height":240},
-		{"id":"e3444d824b3207ad","x":-880,"y":280,"width":400,"height":250,"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Wait Sets.md"},
 		{"id":"4568944e4449c9e7","x":-582,"y":-654,"width":604,"height":369,"type":"file","file":"Files/java-monitor 1.gif"},
-		{"id":"11687c6c03463c84","x":80,"y":-499,"width":250,"height":82,"type":"text","text":"Это как бы изображение монитора в виде \"комнат\".\nС начала поток заходит в entry set и ждёт пока блокировка освободится. \nПотом когда блок"}
+		{"id":"11687c6c03463c84","x":160,"y":-654,"width":250,"height":294,"type":"text","text":"Это как бы изображение монитора в виде \"комнат\".\nС начала поток заходит в entry set и ждёт пока блокировка освободится. \nПотом когда блокировка освобождается то "},
+		{"id":"e3444d824b3207ad","x":-840,"y":190,"width":400,"height":250,"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Wait Sets.md"}
 	],
 	"edges":[
 		{"id":"16d841f3a226df0e","fromNode":"568f29cacf34e80a","fromSide":"right","toNode":"bd043694b198f6d6","toSide":"left"},
