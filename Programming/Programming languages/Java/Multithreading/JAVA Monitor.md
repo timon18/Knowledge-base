@@ -5,5 +5,6 @@ Authors: Tamerlan Khutuev
 Tags: #stub #java #programming 
 ***
 # Monitor
-ыфвыфв
+
+Монитором принято называть объект который хранит состояние занять/свободен.  
 
