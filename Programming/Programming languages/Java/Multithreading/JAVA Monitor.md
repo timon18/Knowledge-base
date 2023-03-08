@@ -25,6 +25,9 @@ Tags: #stub #java #programming
 
 - Вход в монитор (1)
 - Получение монитора (2)
-- 
+- Освобождение монитора (3)
+- Выход из монитора (5)
 
 ![[java-monitor.gif]]
+
+Хорошая статья: https://howtodoinjava.com/java/multi-threading/multithreading-difference-between-lock-and-monitor/ 

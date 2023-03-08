@@ -11,4 +11,6 @@ Tags: #stub #java #programming
 
 Если поток не находится в спящем или оджидающем режиме - то вызов метода просто установит флаг прервывания в true. 
 
+![[Java_-_Wait_and_Notify.webp]]
+
 JAVA Specs: https://docs.oracle.com/javase/specs/jls/se19/html/jls-17.html#jls-17.2.3
