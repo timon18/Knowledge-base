@@ -2,7 +2,7 @@
 16:49
 Authors: Tamerlan Khutuev
 ***
-Tags: #stub #java #programming 
+Tags: #java #programming 
 ***
 # Wait Sets
 Каждый объект, помимо связанного монитора, имеет связанный _набор ожидания_. Набор ожидания — это набор потоков.

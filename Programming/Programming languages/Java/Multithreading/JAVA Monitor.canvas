@@ -1,10 +1,10 @@
 {
 	"nodes":[
-		{"id":"4568944e4449c9e7","x":-582,"y":-654,"width":604,"height":369,"type":"file","file":"Files/java-monitor 1.gif"},
-		{"id":"11687c6c03463c84","x":-493,"y":-1020,"width":427,"height":294,"type":"text","text":"Это как бы изображение монитора в виде \"комнат\".\nС начала поток заходит в entry set и ждёт пока блокировка освободится. \nПотом когда блокировка освобождается то блокировку, захватывает или поток из enty set или поток из wait set. \nВ wait set потоки попадают когда в момент захвата блокировки их останавливают с помощью метода wait."},
+		{"type":"file","file":"Files/java-monitor 1.gif","id":"4568944e4449c9e7","x":-582,"y":-654,"width":604,"height":369},
+		{"type":"text","text":"Это как бы изображение монитора в виде \"комнат\".\nС начала поток заходит в entry set и ждёт пока блокировка освободится. \nПотом когда блокировка освобождается то блокировку, захватывает или поток из enty set или поток из wait set. \nВ wait set потоки попадают когда в момент захвата блокировки их останавливают с помощью метода wait.","id":"11687c6c03463c84","x":-493,"y":-1020,"width":427,"height":294},
 		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Monitor.md","id":"568f29cacf34e80a","x":-480,"y":-160,"width":400,"height":240},
 		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Synchronized.md","id":"1b5830f77604744d","x":-1220,"y":-165,"width":400,"height":245},
-		{"id":"e3444d824b3207ad","x":180,"y":-594,"width":400,"height":250,"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Wait Sets.md"},
+		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Wait Sets.md","id":"e3444d824b3207ad","x":180,"y":-594,"width":400,"height":250},
 		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Lock.md","id":"bd043694b198f6d6","x":240,"y":-165,"width":400,"height":245}
 	],
 	"edges":[
