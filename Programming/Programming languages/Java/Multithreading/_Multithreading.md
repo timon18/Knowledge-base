@@ -2,7 +2,7 @@
  ![[Programming/Programming languages/Java/Multithreading/Concurrency/_Concurrency|_Concurrency]]
  [[Programming/Programming languages/Java/Multithreading/JAVA Monitor|JAVA Monitor]]
  [[Programming/Programming languages/Java/Multithreading/JAVA Mutex|JAVA Mutex]]
- [[Programming/Programming languages/Java/Multithreading/JAVA notify, wait, notifyAll (methods)|JAVA notify, wait, notifyAll (methods)]]
+ [[JAVA wait, notify, notifyAll (methods)|JAVA notify, wait, notifyAll (methods)]]
  [[Programming/Programming languages/Java/Multithreading/JAVA Runnable (interface)|JAVA Runnable (interface)]]
  [[Programming/Programming languages/Java/Multithreading/JAVA Synchronized|JAVA Synchronized]]
  [[Programming/Programming languages/Java/Multithreading/JAVA Thread (class)|JAVA Thread (class)]]
