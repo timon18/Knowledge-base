@@ -5,7 +5,7 @@
 		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Monitor.md","id":"568f29cacf34e80a","x":-480,"y":-160,"width":400,"height":240},
 		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Synchronized.md","id":"1b5830f77604744d","x":-1220,"y":-165,"width":400,"height":245},
 		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Wait Sets.md","id":"e3444d824b3207ad","x":180,"y":-594,"width":400,"height":250},
-		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Lock.md","id":"bd043694b198f6d6","x":240,"y":-165,"width":400,"height":245}
+		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Lock (Mutex).md","id":"bd043694b198f6d6","x":240,"y":-165,"width":400,"height":245}
 	],
 	"edges":[
 		{"id":"16d841f3a226df0e","fromNode":"568f29cacf34e80a","fromSide":"right","toNode":"bd043694b198f6d6","toSide":"left","label":"Lock - это уже флаг \nкоторый меняться при\nзахвате монитора.\nТипо как мьютекс."},
