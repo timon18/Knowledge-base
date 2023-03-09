@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"type":"file","file":"Files/java-monitor 1.gif","id":"4568944e4449c9e7","x":-582,"y":-654,"width":604,"height":369},
+		{"type":"text","text":"Это как бы изображение монитора в виде \"комнат\".\nС начала поток заходит в entry set и ждёт пока блокировка освободится. \nПотом когда блокировка освобождается то блокировку, захватывает или поток из enty set или поток из wait set. \nВ wait set потоки попадают когда в момент захвата блокировки их останавливают с помощью метода wait.","id":"11687c6c03463c84","x":-493,"y":-1020,"width":427,"height":294},
+		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Monitor.md","id":"568f29cacf34e80a","x":-480,"y":-160,"width":400,"height":240},
+		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Synchronized.md","id":"1b5830f77604744d","x":-1220,"y":-165,"width":400,"height":245},
+		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Wait Sets.md","id":"e3444d824b3207ad","x":180,"y":-594,"width":400,"height":250},
+		{"type":"file","file":"Programming/Programming languages/Java/Multithreading/JAVA Lock.md","id":"bd043694b198f6d6","x":240,"y":-165,"width":400,"height":245}
+	],
+	"edges":[
+		{"id":"16d841f3a226df0e","fromNode":"568f29cacf34e80a","fromSide":"right","toNode":"bd043694b198f6d6","toSide":"left","label":"Lock - это уже флаг \nкоторый меняться при\nзахвате монитора.\nТипо как мьютекс."},
+		{"id":"28db62ac3ba3763c","fromNode":"4568944e4449c9e7","fromSide":"bottom","toNode":"568f29cacf34e80a","toSide":"top"},
+		{"id":"120a7ebe98951ad0","fromNode":"568f29cacf34e80a","fromSide":"left","toNode":"1b5830f77604744d","toSide":"right","label":"Можно сказать\nsinchronized это\nи есть монитор"},
+		{"id":"fa955d0f29f90dbf","fromNode":"11687c6c03463c84","fromSide":"bottom","toNode":"4568944e4449c9e7","toSide":"top"},
+		{"id":"e821f9f108a20aa1","fromNode":"e3444d824b3207ad","fromSide":"left","toNode":"4568944e4449c9e7","toSide":"right"}
+	]
+}
