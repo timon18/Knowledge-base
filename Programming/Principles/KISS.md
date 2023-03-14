@@ -6,4 +6,4 @@ Tags: #stub #principles
 ***
 # KISS
 
-
+**KISS** («**Keep it simple, stupid**» — «Делай проще, тупица») — принцип проектирования.
