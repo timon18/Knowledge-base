@@ -6,4 +6,4 @@ Tags: #stub #principles
 ***
 # DRY
 
-
+ DRY – Don’t repeat yourself (не повторяй себя)
