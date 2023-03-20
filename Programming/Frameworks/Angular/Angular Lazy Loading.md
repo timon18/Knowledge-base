@@ -10,6 +10,46 @@ Tags: #stub #angular
 
 ### Angular Lazy Loading
 
+Ленивая загрузка в Angular основана на более поздней загрузке некоторых модулей. 
 
+##### app.routing.module.ts
 
+```ts
+const routes: Routes = [{
+  path: 'lazy', loadChildren: () => import('./lazy-module/lazy-module.module').then((m) => m.LazyModuleModule)
+}];
 
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+```
+
+##### lazy.module.ts
+
+```ts
+const routes: Routes = [{
+path: '', component: LazyComponent
+}]
+
+@NgModule({
+  declarations: [
+    LazyComponent
+  ],
+  imports: [
+    CommonModule,
+    RouterModule.forChild(routes)
+  ],
+  exports: [RouterModule]
+})
+```
+
+##### app.component.html 
+
+```html
+<h1>main</h1>
+<button routerLink="/lazy">lazy route</button>
+<router-outlet></router-outlet>
+```
+
+И из `app.module.ts` можно удалить `lazy.module.ts` 
