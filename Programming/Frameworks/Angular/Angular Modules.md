@@ -42,6 +42,81 @@ Angular приложение имеет модульную архитектур�
 
 ### Типы модулей
 
+`CoreModule` - общепринятое название для модуля, используемого исключительно для поставки сервисов. Он не содержит в себе компонентов, директив и фильтров.
 
+```ts
+@NgModule({
+  imports: [],
+  declarations: [],
+  providers: [],
+})
+export class CoreModule {
+  static forRoot(): ModuleWithProviders {
+    return {
+      ngModule: CoreModule,
+      providers: [
+        AuthService,
+        LoggerService,
+        SettingsService,
+      ],
+    }
+  }
+}
+```
 
+`SharedModule` - общепринятое название для Angular модуля, служащим единым хранилищем для компонентов, директив и фильтров, которыми пользуются другие модули.
 
+```ts
+@NgModule({
+  imports: [
+    CommonModule,
+    FormsModule,
+    ImageCropperModule,
+    ScrollbarModule,
+    SlickModule,
+    SlickModule.forRoot(),
+  ],
+  exports: [
+    CommonModule,
+    ImageCropperModule,
+    ScrollbarModule,
+    SlickModule,
+    AppLangsComponent,
+    AppTabFilterComponent,
+    AppFileUploadComponent,
+    ComponentPreloaderDirective,
+  ],
+  declarations: [
+    AppLangsComponent,
+    AppTabFilterComponent,
+    AppFileUploadComponent,
+    ComponentPreloaderDirective,
+  ],
+})
+export class SharedModule {}
+```
+
+В нужном модуле
+
+```ts
+@NgModule({
+    imports: [
+        //
+        CoreModule.forRoot(),
+        SharedModule
+    ]
+})
+```
+
+### Lazy loading modules
+
+**app.routing.module.ts**
+
+```ts
+const routes: Routes = [
+  {
+    path: 'items',
+    loadChildren: () => import('./items/items.module').then(m => m.ItemsModule)
+  }
+];
+```
