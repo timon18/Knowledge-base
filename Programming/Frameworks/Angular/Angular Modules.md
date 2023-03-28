@@ -101,7 +101,6 @@ export class SharedModule {}
 ```ts
 @NgModule({
     imports: [
-        //
         CoreModule.forRoot(),
         SharedModule
     ]
