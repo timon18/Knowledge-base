@@ -121,6 +121,14 @@ this.loginForm.get('address') // вложенная группа
 this.loginForm.get('address.city') //поле вложенной группы
 ```
 
+Также возможно получение полей с помощью
+
+```ts
+this.loginForm.controls['login'] // поле
+this.loginForm.controls['address'] // вложенная группа
+this.loginForm.controls['address.city'] // поле вложенной группы
+```
+
 Отслеживание изменений формы осуществляется через подписку на `valueChanges` `Observable`. Функция обработчик принимает параметром значение формы.
 
 ```ts
