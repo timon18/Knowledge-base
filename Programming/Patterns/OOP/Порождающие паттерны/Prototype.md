@@ -4,6 +4,15 @@ Authors:
 ***
 Tags: #stub #patterns 
 ***
-# 
+# Прототип
+Также известен как: Клон, Prototype
+https://refactoring.guru/ru/design-patterns/prototype
 
+## Проблема.
+
+
+## Решение
+
+
+## Пример
 

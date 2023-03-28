@@ -4,6 +4,15 @@ Authors:
 ***
 Tags: #stub #patterns 
 ***
-# Builder
+# Строитель
+https://refactoring.guru/ru/design-patterns/builder
 
+
+## Проблема.
+
+
+## Решение
+
+
+## Пример
 

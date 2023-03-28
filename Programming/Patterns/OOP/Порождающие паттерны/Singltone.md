@@ -4,7 +4,18 @@ Authors: Khutuev Tamerlan.
 ***
 Tags: #oop #patterns 
 ***
-# Singltone
+# Одиночка
+https://refactoring.guru/ru/design-patterns/singleton
+
+
+## Проблема.
+
+
+## Решение
+
+
+## Пример
+
 Если есть необходимость что бы у класса был только один инстанс. 
 Можно использовать например для подключения к базе данных. 
 
