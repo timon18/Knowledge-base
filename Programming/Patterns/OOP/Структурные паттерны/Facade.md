@@ -5,7 +5,7 @@ Authors:
 Tags: #stub #patterns 
 ***
 # Фасад
-
+https://refactoring.guru/ru/design-patterns/facade
 
 ## Проблема.
 
