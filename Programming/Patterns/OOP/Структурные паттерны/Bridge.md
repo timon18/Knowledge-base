@@ -8,73 +8,86 @@ Tags: #stub #patterns
 Шаблон моста — это структурный шаблон проектирования, который позволяет отделить абстракцию от ее реализации, чтобы они могли изменяться независимо друг от друга. Он включает в себя создание двух отдельных иерархий, одну для абстракции и одну для реализации, а затем использование композиции для их объединения. Этот шаблон способствует слабой связи и разделению задач, а также позволяет легко расширять и модифицировать как абстракцию, так и реализацию.
 
 ## Проблема.
-
+Необходимо разделить абстракцию и реализацию, чтобы они могли изменяться независимо друг от друга. Это позволяет легко добавлять новые реализации, не влияя на клиентский код.
 
 ## Решение
-
+Паттерн Bridge решает эту проблему, создавая две иерархии классов: абстракцию и реализацию. Абстракция определяет интерфейс для клиентского кода, а реализация предоставляет конкретные реализации этого интерфейса. Абстракция содержит ссылку на реализацию, которая может быть установлена во время выполнения. Это позволяет клиентскому коду работать с абстракцией, не зная о конкретной реализации.
 
 ## Пример
 ```java
-interface DrawingAPI {
-    public void drawCircle(double x, double y, double radius);
-}
-
-class DrawingAPI1 implements DrawingAPI {
-    @Override
-    public void drawCircle(double x, double y, double radius) {
-        System.out.printf("API1.circle at %f:%f radius %f\n", x, y, radius);
-    }
-}
-
-class DrawingAPI2 implements DrawingAPI {
-    @Override
-    public void drawCircle(double x, double y, double radius) {
-        System.out.printf("API2.circle at %f:%f radius %f\n", x, y, radius);
-    }
-}
-
+// Абстракция
 abstract class Shape {
-    protected DrawingAPI drawingAPI;
+    protected Color color;
 
-    protected Shape(DrawingAPI drawingAPI) {
-        this.drawingAPI = drawingAPI;
+    public Shape(Color color) {
+        this.color = color;
     }
 
-    public abstract void draw();
-    public abstract void resizeByPercentage(double pct);
+    abstract public void draw();
 }
 
-class CircleShape extends Shape {
-    private double x, y, radius;
+// Реализация
+interface Color {
+    public void applyColor();
+}
 
-    public CircleShape(double x, double y, double radius, DrawingAPI drawingAPI) {
-        super(drawingAPI);
-        this.x = x;
-        this.y = y;
-        this.radius = radius;
+// Конкретная реализация
+class Red implements Color {
+    public void applyColor() {
+        System.out.println("Red color applied");
+    }
+}
+
+// Конкретная реализация
+class Blue implements Color {
+    public void applyColor() {
+        System.out.println("Blue color applied");
+    }
+}
+
+// Конкретная реализация
+class Green implements Color {
+    public void applyColor() {
+        System.out.println("Green color applied");
+    }
+}
+
+// Конкретная абстракция
+class Circle extends Shape {
+    public Circle(Color color) {
+        super(color);
     }
 
     public void draw() {
-        drawingAPI.drawCircle(x, y, radius);
-    }
-
-    public void resizeByPercentage(double pct) {
-        radius *= (1.0 + pct/100.0);
+        System.out.print("Circle drawn. ");
+        color.applyColor();
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
-        Shape[] shapes = new Shape[] {
-                new CircleShape(1, 2, 3, new DrawingAPI1()),
-                new CircleShape(5, 7, 11, new DrawingAPI2())
-        };
+// Конкретная абстракция
+class Square extends Shape {
+    public Square(Color color) {
+        super(color);
+    }
 
-        for (Shape shape : shapes) {
-            shape.resizeByPercentage(2.5);
-            shape.draw();
-        }
+    public void draw() {
+        System.out.print("Square drawn. ");
+        color.applyColor();
+    }
+}
+
+// Использование
+public class BridgeExample {
+    public static void main(String[] args) {
+        Shape circle = new Circle(new Red());
+        circle.draw();
+
+        Shape square = new Square(new Blue());
+        square.draw();
+
+        Shape square2 = new Square(new Green());
+        square2.draw();
     }
 }
 ```
-В этом примере шаблон моста используется для отделения абстрактного класса Shape от его различных конкретных реализаций (в данном случае CircleShape) и DrawingAPI, который используется для рисования фигуры. Класс Shape содержит ссылку на объект DrawingAPI, и этот объект используется для делегирования рисования фигуры. Разделив абстракции Shape и DrawingAPI, мы можем создавать новые фигуры или новые DrawingAPI независимо друг от друга, а любую новую комбинацию Shape и DrawingAPI можно создать, просто создав новый подкласс Shape и передав ему новый экземпляр DrawingAPI.
+В этом примере класс "Shape" представляет абстракцию, а класс "Color" представляет реализацию. Классы "Circle" и "Square" являются конкретными абстракциями, а классы "Red", "Blue" и "Green" являются конкретными реализациями
