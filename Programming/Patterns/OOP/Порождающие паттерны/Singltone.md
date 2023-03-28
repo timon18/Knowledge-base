@@ -1,6 +1,6 @@
 06-04-2022
 17:16
-Authors: Khutuev Tamerlan.
+Authors: Khutuev Tamerlan, Eloev Georgiy.
 ***
 Tags: #oop #patterns 
 ***
