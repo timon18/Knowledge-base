@@ -8,8 +8,12 @@ Tags: #stub #patterns
 Также известен как: Виртуальный конструктор, Factory Method
 
 Паттерн Factory Method - это порождающий паттерн проектирования, который определяет интерфейс для создания объектов, но позволяет подклассам выбирать классы, которые должны быть созданы.
-https://refactoring.guru/ru/design-patterns/factory-method
 
+>Определяет интерфейс для создания объекта, но оставляет подклас- сам решение о том, экземпляры какого класса должны создаваться. Фаб- ричный метод позволяет классу делегировать создание экземпляров под- классам.
+>(Паттерны объектно-ориентированного программирования 2020. GoF)
+
+>**Фабричный метод** — это порождающий паттерн проектирования, который определяет общий интерфейс для создания объектов в суперклассе, позволяя подклассам изменять тип создаваемых объектов.
+>(https://refactoring.guru/ru/design-patterns/factory-method)
 
 ## Проблема
 В разработке программного обеспечения часто возникает необходимость создания объектов определенных классов в разных местах приложения. Каждый раз создавать объекты напрямую может быть неэффективно и неудобно в поддержке.
@@ -20,3 +24,50 @@ https://refactoring.guru/ru/design-patterns/factory-method
 
 ## Пример
 
+```java
+interface Transport {
+    void deliver();
+}
+
+class Car implements Transport {
+
+    @Override
+    public void deliver() {
+        System.out.println("The car is delivering the goods.");
+    }
+}
+
+class Ship implements Transport {
+
+    @Override
+    public void deliver() {
+        System.out.println("The ship is delivering the goods.");
+    }
+}
+
+abstract class TransportFactory {
+
+    public void planDelivery() {
+        Transport transport = createTransport();
+        transport.deliver();
+    }
+
+    protected abstract Transport createTransport();
+}
+
+class RoadLogistics extends TransportFactory {
+
+    @Override
+    protected Transport createTransport() {
+        return new Car();
+    }
+}
+
+class SeaLogistics extends TransportFactory {
+
+    @Override
+    protected Transport createTransport() {
+        return new Ship();
+    }
+}
+```

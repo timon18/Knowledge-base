@@ -101,16 +101,4 @@ class ShapeCache {
         shapeMap.put(square.getId(), square);
     }
 }
-
-public class Main {
-    public static void main(String[] args) {
-        ShapeCache.loadCache();
-
-        Shape clonedShape = ShapeCache.getShape("1");
-        System.out.println("Shape : " + clonedShape.getType());
-
-        Shape clonedShape2 = ShapeCache.getShape("2");
-        System.out.println("Shape : " + clonedShape2.getType());
-    }
-}
 ```
