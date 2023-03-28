@@ -6,7 +6,7 @@ Tags: #stub #patterns
 ***
 # Компоновщик
 Также известен как: Дерево, Composite
-
+https://refactoring.guru/ru/design-patterns/composite
 
 ## Проблема.
 
