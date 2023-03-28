@@ -1,6 +1,6 @@
 28-03-2023
 11:09
-Authors: 
+Authors: Tamerlan Khutuev
 ***
 Tags: #stub #patterns 
 ***
