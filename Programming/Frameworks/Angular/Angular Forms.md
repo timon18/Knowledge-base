@@ -152,3 +152,48 @@ this.loginForm.statusChanges.subscribe((status) => {
   console.log(status)
 })
 ```
+
+### Асинхронная валидация форм
+
+Асинхронная валидация позволяет проверять формы на основе асинхронных операций, таких как HTTP-запросы или операции ввода-вывода. В Angular это можно делать с помощью `AsyncValidatorFn`, который возвращает либо промис, либо Observable.
+
+```ts
+import { AbstractControl, AsyncValidatorFn } from '@angular/forms';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+
+export function forbiddenNameValidator(nameRe: RegExp): AsyncValidatorFn {
+  return (control: AbstractControl): Promise<{ [key: string]: any } | null> | Observable<{ [key: string]: any } | null> => {
+    const forbidden = nameRe.test(control.value);
+    return forbidden ? of({ 'forbiddenName': { value: control.value } }) : null;
+  };
+}
+```
+
+```ts
+import { Component } from '@angular/core';
+import { FormBuilder, Validators } from '@angular/forms';
+import { forbiddenNameValidator } from './forbidden-name.directive';
+
+@Component({
+  selector: 'app-example',
+  template: `
+    <form [formGroup]="form">
+      <input formControlName="name">
+    </form>
+    <div *ngIf="name.errors.forbiddenName">Name cannot be {{name.errors.forbiddenName.value}}</div>
+  `,
+})
+export class ExampleComponent {
+  form = this.fb.group({
+    name: ['', [Validators.required], [forbiddenNameValidator(/bob/i)]]
+  });
+
+  get name() { return this.form.get('name'); }
+
+  constructor(private fb: FormBuilder) { }
+}
+
+```
+
+Здесь идет проверка на соответствие регулярному выражению
