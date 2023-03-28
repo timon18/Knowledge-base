@@ -8,7 +8,7 @@ Tags: #oop #patterns
 https://refactoring.guru/ru/design-patterns/singleton
 
 
-## Проблема.
+## Проблема
 
 
 ## Решение
