@@ -1,8 +1,8 @@
 28-03-2023
 11:08
-Authors: 
+Authors: Eloev Georgiy 
 ***
-Tags: #patterns
+Tags: #patterns #DesignPatterns
 ***
 # Design patterns
 
