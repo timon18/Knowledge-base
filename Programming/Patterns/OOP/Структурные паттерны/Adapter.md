@@ -5,5 +5,5 @@ Authors:
 Tags: #stub #patterns 
 ***
 # Адаптер
-
+Также известен как: Wrapper, Обёртка, Adapter
 

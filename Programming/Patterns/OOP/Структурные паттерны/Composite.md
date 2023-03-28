@@ -5,5 +5,5 @@ Authors:
 Tags: #stub #patterns 
 ***
 # Компоновщик
-
+Также известен как: Дерево, Composite
 

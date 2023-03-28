@@ -4,6 +4,6 @@ Authors:
 ***
 Tags: #stub #patterns 
 ***
-# 
-
+# Команда
+Также известен как: Действие, Транзакция, Action, Command
 
