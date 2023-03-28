@@ -1,10 +1,10 @@
 28-03-2023
-11:17
-Authors: 
+11:14
+Authors: Tamerlan Khutuev
 ***
 Tags: #stub #patterns 
 ***
-# Шаблонный метод
+# Итератор
 
 
 ## Проблема
