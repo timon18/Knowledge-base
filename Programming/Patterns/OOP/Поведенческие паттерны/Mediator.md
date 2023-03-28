@@ -8,3 +8,11 @@ Tags: #stub #patterns
 Также известен как: Intermediary, Controller, Mediator
 
 
+## Проблема
+
+
+## Решение
+
+
+## Пример
+
