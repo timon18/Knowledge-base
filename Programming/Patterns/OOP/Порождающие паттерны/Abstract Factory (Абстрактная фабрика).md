@@ -1,6 +1,6 @@
 28-03-2023
 10:43
-Authors: 
+Authors: Eloev Georgiy 
 ***
 Tags: #stub #patterns 
 ***
