@@ -25,3 +25,83 @@ Tags: #stub #patterns
 
 ## Пример
 
+```java
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Book {
+    private String title;
+    private String author;
+    private int year;
+
+    public Book(String title, String author, int year) {
+        this.title = title;
+        this.author = author;
+        this.year = year;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getYear() {
+        return year;
+    }
+}
+
+public class BookCollection implements Iterable<Book> {
+    private List<Book> books;
+
+    public BookCollection() {
+        books = new ArrayList<>();
+    }
+
+    public void addBook(Book book) {
+        books.add(book);
+    }
+
+    public void removeBook(Book book) {
+        books.remove(book);
+    }
+
+    public Iterator<Book> iterator() {
+        return new BookIterator();
+    }
+
+    private class BookIterator implements Iterator<Book> {
+        private int currentIndex = 0;
+
+        public boolean hasNext() {
+            return currentIndex < books.size();
+        }
+
+        public Book next() {
+            return books.get(currentIndex++);
+        }
+
+        public void remove() {
+            books.remove(--currentIndex);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        BookCollection collection = new BookCollection();
+        collection.addBook(new Book("The Catcher in the Rye", "J.D. Salinger", 1951));
+        collection.addBook(new Book("To Kill a Mockingbird", "Harper Lee", 1960));
+        collection.addBook(new Book("1984", "George Orwell", 1949));
+
+        Iterator<Book> iterator = collection.iterator();
+        while (iterator.hasNext()) {
+            Book book = iterator.next();
+            System.out.println(book.getTitle() + " by " + book.getAuthor() + ", " + book.getYear());
+        }
+    }
+}
+```
