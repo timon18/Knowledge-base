@@ -3,7 +3,7 @@
  ![[Programming/Data bases/_Data bases|_Data bases]]
  ![[Programming/Frameworks/_Frameworks|_Frameworks]]
  ![[Programming/Instruments/_Instruments|_Instruments]]
- ![[Programming/Libraries/_Libraries|_Libraries]]
+ ![[_Libraries|_Libraries]]
  ![[Programming/OS/_OS|_OS]]
  ![[Programming/Patterns/_Patterns|_Patterns]]
  ![[Programming/Principles/_Principles|_Principles]]
