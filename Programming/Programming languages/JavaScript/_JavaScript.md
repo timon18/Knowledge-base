@@ -9,6 +9,7 @@
  [[Programming/Programming languages/JavaScript/JS Строгий режим (strict mode)|JS Строгий режим (strict mode)]]
  [[Programming/Programming languages/JavaScript/JS Типы данных|JS Типы данных]]
  [[Programming/Programming languages/JavaScript/JS Функции|JS Функции]]
+ [[Programming/Programming languages/JavaScript/JS Языки, компилируемые в JS|JS Языки, компилируемые в JS]]
  [[Programming/Programming languages/JavaScript/JS conditional branching (if, else)|JS conditional branching (if, else)]]
  [[Programming/Programming languages/JavaScript/JS console.log|JS console.log]]
  [[Programming/Programming languages/JavaScript/JS Context (this, call, bind, apply)|JS Context (this, call, bind, apply)]]
