@@ -72,4 +72,6 @@ function deepFreeze(obj) {
 
 ### Объекты-хосты и нативные объекты (Host objects and native objects)
 
-``
+`Native objects` - это объекты, которые являются частью языка JavaScript и указаны в спецификации ECMAScript. Примерами нативных объектов являются `Object`, `Array`, `String`, `Math`, `Date`, `RegExp` и другие.
+
+`Host objects` - объекты, предоставляемые средой исполнения (`document`, `window`)
