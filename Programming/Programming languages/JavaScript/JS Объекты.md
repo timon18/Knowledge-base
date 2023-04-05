@@ -43,3 +43,6 @@ alert(user["likes birds"]); // true
 // удаление свойства 
 delete user["likes birds"];
 ```
+
+### Глубокая заморозка объектов
+
