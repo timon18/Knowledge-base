@@ -2,7 +2,7 @@
 11:53
 Authors: Даниил Белоусов
 ***
-Tags: #stub #js #javascript #strictmode
+Tags: #stub #js #javascript #strictmode #es5
 ***
 # Strict mode
 
