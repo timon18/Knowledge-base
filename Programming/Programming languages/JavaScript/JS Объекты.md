@@ -46,3 +46,30 @@ delete user["likes birds"];
 
 ### Глубокая заморозка объектов
 
+Нужно рекурсивно вызывать Object.freeze()
+
+```js
+function deepFreeze(obj) {
+  // Получаем имена свойств объекта
+  const propNames = Object.keys(obj);
+
+  // Замораживаем свойства объекта
+  propNames.forEach((name) => {
+    const prop = obj[name];
+
+    // Рекурсивно замораживаем свойства объектов
+    if (typeof prop === 'object' && prop !== null) {
+      deepFreeze(prop);
+    }
+  });
+
+  // Замораживаем сам объект
+  return Object.freeze(obj);
+}
+```
+
+---
+
+### Объекты-хосты и нативные объекты (Host objects and native objects)
+
+``
